@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Screen </title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.css">
+	<link rel="stylesheet" type="text/css" href="images/foundation-icons/foundation-icons.css">
+	<link type="text/css" media="screen" rel="stylesheet" href="responsive-tables.css" />
+<script type="text/javascript" src="responsive-tables.js"></script>
+<style type="text/css">
+	body{
+		margin:10px;
+		padding: 10px;
+		width: 45%
+	}
+	.tab{
+		border: 2px solid gray;
+		padding: 15px;
+	}
+	p{
+		padding-left: 10px;
+		display: block;
+		padding-top: 2px;
+		margin: 2px;
+		background-color: #E6E6E6;
+		font-size: 1.2em;
+		border-bottom: 1px solid black;
+
+	}
+	.inline{
+		display: inline;
+		width: 25%
+	}
+	
+</style>
+</head>
+<body>
+<form>
+<div class="tab">
+	<table class="responsive">
+	<p>Select a criteria to display data </p>
+	<tr><label>User</label>
+	<select name="user">
+			<option value="Select --">--Select -- </option>
+			<option value="user1">User 1 </option>
+			<option value="user2">User 2 </option>
+			<option value="user3">User 3 </option>
+	</select></tr>
+	<div class="inline">
+	<label>Projects</label>
+	<select name="prj">
+
+			<option value="Select --">--Select -- </option>
+			<option value="Project1">Project 1 </option>
+			<option value="Project2">Project 2 </option>
+			<option value="Project3">Project 3 </option>
+	</select>
+
+	<label>Status</label>
+	<select name="Stat">
+
+			<option value="Select --">--Select -- </option>
+			<option value="stat1">Status 1 </option>
+			<option value="stat2">Status 2 </option>
+			<option value="stat3">Status 3 </option>
+	</select>
+	</div>
+	</table>
+	</div>
+	<label>Summary</label>
+	<i class="fi-male-female"> </i>
+	</body>
+</html>
